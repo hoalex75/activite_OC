@@ -6,4 +6,10 @@ public class Buche{
 		longueur_cm=longueur;
 		diametre_cm=diametre;
 	}
+
+	public Bois coupe(int coupe){
+		int nombreBout=longueur_cm/coupe;
+		Bois b=new Bois(nombreBout,coupe);
+		return b;
+	}
 }
