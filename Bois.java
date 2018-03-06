@@ -6,4 +6,12 @@ public class Bois{
 		longueur_cm=longueur;
 		nombre_bout=nombre;
 	}
+
+	public int getLongueur(){
+		return longueur_cm;
+	}
+
+	public int getNombre(){
+		return nombre_bout;
+	}
 }
